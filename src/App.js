@@ -4,8 +4,6 @@ import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
 import "bootstrap/dist/css/bootstrap.css";
 import "./App.css";
 
@@ -14,6 +12,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import EditExpense from "./components/edit-expense.component";
 import ExpensesList from "./components/expenses-listing.component";
 import CreateExpense from "./components/create-expense.component";
+import HomePage from "./components/depan";
 
 function App() {
   return (<Router>
@@ -23,7 +22,7 @@ function App() {
         <Navbar bg="dark" variant="dark" expand="lg">
           <Navbar.Brand>
             <Link to={"/"} className="nav-link">
-              M&S
+              keluarberapa
             </Link>
           </Navbar.Brand>
           
@@ -50,39 +49,14 @@ function App() {
         </Container>
         </Navbar>
       
-<Container> 
+  <Container> 
       <br/>
 
-  {/* <Row className="justify-content-md-center">
-    
-    <Col md="auto">Pantau terus pengeluaranmu!</Col>
-    
-  </Row> */}
-      <br/>
-
-<Card className="text-center">
-        <Card.Header>buatKamu</Card.Header>
-        <Card.Body>
-          <Card.Title>manage ur self!</Card.Title>
-          <Card.Text>
-          It's not about how much money you make. It's how you save it :)
-              </Card.Text>
-          <Button href="http://localhost:3000/buat-pengeluaran">
-              Atur Keuanganmu!
-            
-          </Button>
-        </Card.Body>
-        <Card.Footer className="text-muted">dariAku</Card.Footer>
-      </Card> 
-
-<br/>
-
-      <Container>
         <Row>
           <Col md={12}>
             <div className="wrapper">
               <Switch>
-                {/* {<Route exact path='/edi-pengeluara/:id' component={CreateExpense} />  */}
+                <Route exact path='/' component={HomePage} /> 
                 <Route path="/buat-pengeluaran" component={CreateExpense} />
                 <Route path="/edit-pengeluaran/:id" component={EditExpense} />
                 <Route path="/daftar-pengeluaran" component={ExpensesList} />
@@ -90,7 +64,6 @@ function App() {
             </div>
           </Col>
         </Row>
-      </Container>
       </Container>
     </div>
     
