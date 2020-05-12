@@ -65,7 +65,7 @@ export default class EditExpense extends Component {
       })
 
     // Redirect to Expense List 
-    this.props.history.push('/daftar-pengeluaran')
+    this.props.history.push('/keluarrBerapa/daftar-pengeluaran')
   }
 
 

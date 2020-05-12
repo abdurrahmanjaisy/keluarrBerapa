@@ -21,7 +21,7 @@ function App() {
       
         <Navbar bg="dark" variant="dark" expand="lg">
           <Navbar.Brand>
-            <Link to={"/"} className="nav-link">
+            <Link to={"/keluarrBerapa"} className="nav-link">
               keluarberapa
             </Link>
           </Navbar.Brand>
@@ -35,12 +35,12 @@ function App() {
                   apiDocs
                 </Nav.Link>
                 <Nav>
-                  <Link to={"/buat-pengeluaran"} className="nav-link" >
+                  <Link to={"/keluarrBerapa/buat-pengeluaran"} className="nav-link" >
                   Buat Pengeluaran
                   </Link>
                 </Nav>
                 <Nav>
-                  <Link to={"/daftar-pengeluaran"} className="nav-link">
+                  <Link to={"/keluarrBerapa/daftar-pengeluaran"} className="nav-link">
                   Daftar Pegeluaran
                   </Link>
                 </Nav>
@@ -56,10 +56,10 @@ function App() {
           <Col md={12}>
             <div className="wrapper">
               <Switch>
-                <Route exact path='/' component={HomePage} /> 
-                <Route path="/buat-pengeluaran" component={CreateExpense} />
-                <Route path="/edit-pengeluaran/:id" component={EditExpense} />
-                <Route path="/daftar-pengeluaran" component={ExpensesList} />
+                <Route exact path='/keluarrBerapa' component={HomePage} /> 
+                <Route path="/keluarrBerapa/buat-pengeluaran" component={CreateExpense} />
+                <Route path="/keluarrBerapa/edit-pengeluaran/:id" component={EditExpense} />
+                <Route path="/keluarrBerapa/daftar-pengeluaran" component={ExpensesList} />
               </Switch>
             </div>
           </Col>
