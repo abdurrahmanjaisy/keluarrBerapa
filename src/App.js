@@ -17,8 +17,7 @@ import HomePage from "./components/depan";
 function App() {
   return (<Router>
     <div className="App">
-     
-      
+
         <Navbar bg="dark" variant="dark" expand="lg">
           <Navbar.Brand>
             <Link to={"/"} className="nav-link">
