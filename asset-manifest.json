@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/keluarrBerapa/static/css/main.1fc43244.chunk.css",
-    "main.js": "/keluarrBerapa/static/js/main.23b14ab0.chunk.js",
-    "main.js.map": "/keluarrBerapa/static/js/main.23b14ab0.chunk.js.map",
+    "main.js": "/keluarrBerapa/static/js/main.6ea88f71.chunk.js",
+    "main.js.map": "/keluarrBerapa/static/js/main.6ea88f71.chunk.js.map",
     "runtime-main.js": "/keluarrBerapa/static/js/runtime-main.3962861e.js",
     "runtime-main.js.map": "/keluarrBerapa/static/js/runtime-main.3962861e.js.map",
     "static/css/2.74189dbb.chunk.css": "/keluarrBerapa/static/css/2.74189dbb.chunk.css",
     "static/js/2.36a556cf.chunk.js": "/keluarrBerapa/static/js/2.36a556cf.chunk.js",
     "static/js/2.36a556cf.chunk.js.map": "/keluarrBerapa/static/js/2.36a556cf.chunk.js.map",
     "index.html": "/keluarrBerapa/index.html",
-    "precache-manifest.f4a285ec536dc2270d522eb46d88f5e3.js": "/keluarrBerapa/precache-manifest.f4a285ec536dc2270d522eb46d88f5e3.js",
+    "precache-manifest.5200df048fb101f96b780316b65d956d.js": "/keluarrBerapa/precache-manifest.5200df048fb101f96b780316b65d956d.js",
     "service-worker.js": "/keluarrBerapa/service-worker.js",
     "static/css/2.74189dbb.chunk.css.map": "/keluarrBerapa/static/css/2.74189dbb.chunk.css.map",
     "static/css/main.1fc43244.chunk.css.map": "/keluarrBerapa/static/css/main.1fc43244.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.74189dbb.chunk.css",
     "static/js/2.36a556cf.chunk.js",
     "static/css/main.1fc43244.chunk.css",
-    "static/js/main.23b14ab0.chunk.js"
+    "static/js/main.6ea88f71.chunk.js"
   ]
 }
