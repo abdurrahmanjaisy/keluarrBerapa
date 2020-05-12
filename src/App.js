@@ -20,7 +20,7 @@ function App() {
 
         <Navbar bg="dark" variant="dark" expand="lg">
           <Navbar.Brand>
-            <Link to={"/"} className="nav-link">
+            <Link to={"/keluarrBerapa"} className="nav-link">
               keluarberapa
             </Link>
           </Navbar.Brand>
