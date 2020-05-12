@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "03efa4150c983f8ab1bfd17d38149434",
+    "revision": "7b75433bc0ccf251b61175b3ca95a445",
     "url": "/keluarrBerapa/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/keluarrBerapa/static/css/2.74189dbb.chunk.css"
   },
   {
-    "revision": "94d033f8f6279204db97",
+    "revision": "98081740b6e3193d3cb3",
     "url": "/keluarrBerapa/static/css/main.1fc43244.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/keluarrBerapa/static/js/2.36a556cf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "94d033f8f6279204db97",
-    "url": "/keluarrBerapa/static/js/main.6ea88f71.chunk.js"
+    "revision": "98081740b6e3193d3cb3",
+    "url": "/keluarrBerapa/static/js/main.23b14ab0.chunk.js"
   },
   {
     "revision": "d82fef8c2533ed5f0129",
